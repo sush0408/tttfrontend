@@ -1,0 +1,31 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>  
+<input [(ngModel)]="num" placeholder="Please enter the number" type="number">
+<br>
+<br>
+
+<button (click)="callServer()" [disabled]="!num>0">Press Here</button>
+<br><br>
+<div style="margin-left:5%" *ngIf="words.length>0">
+<table [border]="1" >
+<thead>
+<tr><th>Word</th><th>Frequency</th></tr>
+</thead>
+<tbody>
+<tr *ngFor="let word of words">
+<td>{{word.word}}</td>
+<td>{{word.count}}</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+<div class="footer">
+  <p>Sushil Singh | sushil@cvtrobotics.in | 8768777710</p>
+</div>
+
