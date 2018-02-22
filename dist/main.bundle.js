@@ -38,7 +38,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<div style=\"text-align:center\">\r\n  <h1>\r\n    Welcome to {{ title }}!\r\n  </h1>  \r\n<input [(ngModel)]=\"num\" placeholder=\"Please enter the number\" type=\"number\">\r\n<br>\r\n<br>\r\n\r\n<button (click)=\"callServer()\" [disabled]=\"(!num>0)\">Press Here</button>\r\n<br><br>\r\n<div style=\"margin-left:5%\" *ngIf=\"(words.length>0)\">\r\n<table [border]=\"1\" >\r\n<thead>\r\n<tr><th>Word</th><th>Frequency</th></tr>\r\n</thead>\r\n<tbody>\r\n<tr *ngFor=\"let word of words\">\r\n<td>{{word.word}}</td>\r\n<td>{{word.count}}</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n</div>\r\n\r\n</div>\r\n<div class=\"footer\">\r\n  <p>Sushil Singh | sushil@cvtrobotics.in | 8768777710</p>\r\n</div>\r\n\r\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<div style=\"text-align:center\">\r\n  <h1>\r\n    Welcome to {{ title }}!\r\n  </h1>  \r\n<input [(ngModel)]=\"num\" placeholder=\"Please enter the number\" type=\"number\">\r\n<br>\r\n<br>\r\n\r\n<button (click)=\"callServer()\" [disabled]=\"!(num>0)\">Press Here</button>\r\n<br><br>\r\n<div style=\"margin-left:5%\" *ngIf=\"(words.length>0)\">\r\n<table [border]=\"1\" >\r\n<thead>\r\n<tr><th>Word</th><th>Frequency</th></tr>\r\n</thead>\r\n<tbody>\r\n<tr *ngFor=\"let word of words\">\r\n<td>{{word.word}}</td>\r\n<td>{{word.count}}</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n\r\n</div>\r\n\r\n</div>\r\n<div class=\"footer\">\r\n  <p>Sushil Singh | sushil@cvtrobotics.in | 8768777710</p>\r\n</div>\r\n\r\n"
 
 /***/ }),
 
