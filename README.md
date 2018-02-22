@@ -1,9 +1,16 @@
 # TTT Frontend
+This app has been written in Angular4.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+Dependencies `node.js`
 
-## Development server
+Clone this repository from `git@github.com:sush0408/tttfrontend.git`
 
-Run `node server.js` to run the code or simply run angular app by `ng serve`
+Run `npm install -g @angular/cli`
 
+Run `npm install --save express`
 
+Run `ng serve` or `node server.js`
+
+Go to app at (localhost:5000)
+
+The server code can be found at (https://github.com/sush0408/tttbackend) 
