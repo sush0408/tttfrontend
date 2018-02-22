@@ -7,7 +7,7 @@
 <br>
 <br>
 
-<button (click)="callServer()" [disabled]="(!num>0)">Press Here</button>
+<button (click)="callServer()" [disabled]="!(num>0)">Press Here</button>
 <br><br>
 <div style="margin-left:5%" *ngIf="(words.length>0)">
 <table [border]="1" >
