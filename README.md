@@ -16,7 +16,7 @@ Go to app at (localhost:5000)
 The server code can be found at (https://github.com/sush0408/tttbackend) 
 
 
-##Test Case
+#Test Case
 
 
 ![alt text](https://github.com/sush0408/tttfrontend/blob/master/images/test1.PNG)
